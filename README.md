@@ -74,11 +74,11 @@ Finally, UNIX line endings are used, rather than MS-DOS / Windows-style
 I am not a lawyer, but I understand that there is a slim chance that
 these indices could be argued to be derivative works of copyrighted
 material.  If so, they are distributed under
-[fair use](http://en.wikipedia.org/wiki/Fair_use), given that:
+[fair use](http://en.wikipedia.org/wiki/Fair_use), since:
 
-*   the distribution is not for profit
+*   the distribution is not for profit,
 *   the distribution cannot negatively impact the expected revenue from
     or market for the original works (in fact if anything it should
-    increase it)
-*   the indices substantially less than the original work
-*   considerable original effort was invested in creating accurate indices
+    increase it),
+*   the indices substantially less than the original work, and
+*   considerable original effort was invested in creating accurate indices.
