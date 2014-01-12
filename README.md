@@ -12,7 +12,8 @@ extremely welcome to do so
 
 I am not a lawyer, but I understand that there is a slim chance that
 these indices could be argued to be derivative works of copyrighted
-material.  If so, they are distributed under fair use, given that:
+material.  If so, they are distributed under
+[fair use](http://en.wikipedia.org/wiki/Fair_use), given that:
 
 *   the distribution is not for profit
 *   the distribution cannot negatively impact the expected revenue from
