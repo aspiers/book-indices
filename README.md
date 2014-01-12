@@ -6,11 +6,22 @@ If you spot any mistakes or want to contribute a new index, you are
 extremely welcome to do so
 [right now](https://help.github.com/articles/creating-and-editing-files-in-your-repository)!
 
-## File format
+## How to contribute
 
 The format of these index files is extremely simple to understand, so
 anyone should be able to make contributions - it's the very well-known
-[CSV (or Comma-Separated Values) format](http://en.wikipedia.org/wiki/Comma-separated_values).
+[CSV (or Comma-Separated Values) format](http://en.wikipedia.org/wiki/Comma-separated_values),
+which can be edited via countless pieces of software.  The easiest way
+is
+[editing directly on this website (github)](https://help.github.com/articles/creating-and-editing-files-in-your-repository),
+but if you want to edit or build new indices offline, two of the most
+obvious choices are
+[LibreOffice](http://www.libreoffice.org/features/calc/) and
+[Microsoft Excel](http://en.wikipedia.org/wiki/Microsoft_Excel).  But
+the format is so simple that it's just as easy to use a text editor.
+
+## File format
+
 Each line in an index file contains:
 
 1.  the name of a tune
