@@ -61,6 +61,9 @@ double those double quotes:
 
     "Take The ""A"" Train",434,
 
+Even though this is not part of the CSV standard, it is also permitted
+to add blank lines and comment lines, which begin with the `#` symbol.
+
 Finally, UNIX line endings are used, rather than MS-DOS / Windows-style
 [CR/LF](http://en.wikipedia.org/wiki/Newline) line endings.
 
