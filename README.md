@@ -1,9 +1,11 @@
 # Indices for jazz real / fake books
 
 This repository is intended to be a high quality, collaboratively
-edited collection of indices for well known jazz real / fake books,
-rooted in the belief that [Open Data](http://en.wikipedia.org/wiki/Open_data)
-is often the most beneficial approach.
+edited collection of indices for well known jazz
+[real](http://en.wikipedia.org/wiki/Real_Book) /
+[fake](http://en.wikipedia.org/wiki/Fake_book) books, rooted in the
+belief that [Open Data](http://en.wikipedia.org/wiki/Open_data) is
+often the most beneficial approach.
 
 If you spot any mistakes or want to contribute a new index, you are
 extremely welcome to do so
