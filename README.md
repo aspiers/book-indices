@@ -13,9 +13,9 @@ anyone should be able to make contributions - it's the very well-known
 [CSV (or Comma-Separated Values) format](http://en.wikipedia.org/wiki/Comma-separated_values).
 Each line in an index file contains:
 
-1   the name of a tune
-2   the number of the first page of the tune within the PDF file
-3   (optional) the number of the last page of the tune within the PDF file
+1.  the name of a tune
+2.  the number of the first page of the tune within the PDF file
+3.  (optional) the number of the last page of the tune within the PDF file
 
 For example:
 
