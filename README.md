@@ -110,7 +110,3 @@ material.  If so, they are distributed under
     increase it),
 *   the indices substantially less than the original work, and
 *   considerable original effort was invested in creating accurate indices.
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/aspiers/book-indices/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
