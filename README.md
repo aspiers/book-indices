@@ -86,6 +86,20 @@ double those double quotes:
 
 Even though this is not part of the CSV standard, it is also permitted
 to add blank lines and comment lines, which begin with the `#` symbol.
+However in order to avoid breaking
+[GitHub's file editor](https://help.github.com/articles/editing-files-in-your-repository/),
+it's necessary to ensure that comment lines have the same number of
+commas as the other lines, and to avoid incompatibiliity with the CSV
+format by ensuring that if the first field of a commented line is
+quoted, the `#` symbol must go *inside* the quotes, not outside.  So
+these are valid comments:
+
+    # All Of Me,18,
+    "# All Of Me",18,
+
+but this is not:
+
+    # "All Of Me",18,
 
 Finally, UNIX line endings are used, rather than MS-DOS / Windows-style
 [CR/LF](http://en.wikipedia.org/wiki/Newline) line endings.
