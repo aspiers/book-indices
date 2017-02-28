@@ -11,6 +11,12 @@ If you spot any mistakes or want to contribute a new index, you are
 extremely welcome to do so
 [right now](https://help.github.com/articles/creating-and-editing-files-in-your-repository)!
 
+## How to use these indices
+
+If you have a PDF of a real / fake book whose contents are described
+by one of these indices, you can split the large PDF into many small
+PDF files, one per song, using my [PDFexploder tool](https://github.com/aspiers/PDFexploder).
+
 ## How to contribute
 
 The format of these index files is extremely simple to understand, so
