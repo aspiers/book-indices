@@ -90,6 +90,11 @@ to add blank lines and comment lines, which begin with the `#` symbol.
 Finally, UNIX line endings are used, rather than MS-DOS / Windows-style
 [CR/LF](http://en.wikipedia.org/wiki/Newline) line endings.
 
+## Alternative sources of indices
+
+- https://git.zx2c4.com/realbook-splitter/tree/listing.txt
+- https://www.seventhstring.com/fbi/aboutfbi.html
+
 ## Legal stuff
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">Music book indices</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/aspiers/book-indices" property="cc:attributionName" rel="cc:attributionURL">Adam Spiers</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
