@@ -18,7 +18,7 @@ anyone should be able to make contributions - it's the very well-known
 [CSV (or Comma-Separated Values) format](http://en.wikipedia.org/wiki/Comma-separated_values),
 which can be edited via countless pieces of software.  The easiest way
 by far is
-[editing directly on this website (github)](https://help.github.com/articles/creating-and-editing-files-in-your-repository).
+[editing directly on this website (github)](https://help.github.com/articles/editing-files-in-your-repository/).
 
 If you really want to edit or build new indices offline, two of the
 most obvious choices are
