@@ -13,9 +13,17 @@ extremely welcome to do so
 
 ## How to use these indices
 
-If you have a PDF of a real / fake book whose contents are described
-by one of these indices, you can split the large PDF into many small
-PDF files, one per song, using my [PDFexploder tool](https://github.com/aspiers/PDFexploder).
+Assuming you have a PDF of a real / fake book whose contents are
+described by one of these indices:
+
+-   You can split the large PDF into many small PDF files, one per
+    song, using my [PDFexploder
+    tool](https://github.com/aspiers/PDFexploder).
+
+-   You can use this [utility for
+    Windows](https://github.com/Sogolumbo/Music-Book-Index-Search)
+    which provides a GUI for quickly searching the indices and jumping
+    to the right page in the PDF.
 
 ## How to contribute
 
