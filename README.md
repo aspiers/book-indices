@@ -25,6 +25,11 @@ described by one of these indices:
     which provides a GUI for quickly searching the indices and jumping
     to the right page in the PDF.
 
+-   [forScore](https://forscore.co) 10 for iPad adds [a feature that
+    allows you to add indexes to large scores by uploading a CSV file
+    that links the song titles to specific page numbers of the
+    PDF](http://www.robbyburns.com/blog/adding-an-index-for-your-real-books-in-forscore).
+
 ## How to contribute
 
 The format of these index files is extremely simple to understand, so
