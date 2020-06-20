@@ -13,9 +13,22 @@ extremely welcome to do so
 
 ## How to use these indices
 
-If you have a PDF of a real / fake book whose contents are described
-by one of these indices, you can split the large PDF into many small
-PDF files, one per song, using my [PDFexploder tool](https://github.com/aspiers/PDFexploder).
+Assuming you have a PDF of a real / fake book whose contents are
+described by one of these indices:
+
+-   You can split the large PDF into many small PDF files, one per
+    song, using my [PDFexploder
+    tool](https://github.com/aspiers/PDFexploder).
+
+-   You can use this [utility for
+    Windows](https://github.com/Sogolumbo/Music-Book-Index-Search)
+    which provides a GUI for quickly searching the indices and jumping
+    to the right page in the PDF.
+
+-   [forScore](https://forscore.co) 10 for iPad adds [a feature that
+    allows you to add indexes to large scores by uploading a CSV file
+    that links the song titles to specific page numbers of the
+    PDF](http://www.robbyburns.com/blog/adding-an-index-for-your-real-books-in-forscore).
 
 ## How to contribute
 
