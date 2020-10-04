@@ -127,6 +127,8 @@ Finally, UNIX line endings are used, rather than MS-DOS / Windows-style
 
 - https://git.zx2c4.com/realbook-splitter/tree/listing.txt
 - https://www.seventhstring.com/fbi/aboutfbi.html
+- https://github.com/mikeln/musicindex
+- http://diystompboxes.com/unrealbook/csvindexes/
 
 ## Legal stuff
 
