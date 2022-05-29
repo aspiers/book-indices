@@ -20,6 +20,9 @@ described by one of these indices:
     song, using my [PDFexploder
     tool](https://github.com/aspiers/PDFexploder).
 
+-   Use https://github.com/neshanjo/fakebook-splitter which is based
+    on NodeJS and `pdftk` so should work with Windows/Mac/Linux.
+
 -   You can use this [utility for
     Windows](https://github.com/Sogolumbo/Music-Book-Index-Search)
     which provides a GUI for quickly searching the indices and jumping
@@ -29,6 +32,10 @@ described by one of these indices:
     allows you to add indexes to large scores by uploading a CSV file
     that links the song titles to specific page numbers of the
     PDF](http://www.robbyburns.com/blog/adding-an-index-for-your-real-books-in-forscore).
+
+If you know of any other ways to use them, please submit the details
+via [a new issue](https://github.com/aspiers/book-indices/issues/new)
+, or even better, via a pull request as described immediately below.
 
 ## How to contribute
 
