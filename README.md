@@ -20,6 +20,11 @@ described by one of these indices:
     song, using my [PDFexploder
     tool](https://github.com/aspiers/PDFexploder).
 
+-   Use [Birdland Musician's
+    Assistant](https://birdland.wrwetzel.com/) which is a Linux-based
+    multimedia music viewer and library manager for music books in PDF
+    form including fakebooks.
+
 -   Use https://github.com/neshanjo/fakebook-splitter which is based
     on NodeJS and `pdftk` so should work with Windows/Mac/Linux.
 
