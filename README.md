@@ -137,6 +137,7 @@ Finally, UNIX line endings are used, rather than MS-DOS / Windows-style
 
 ## Alternative sources of indices
 
+- https://github.com/DThompson55/FakeBookIndex
 - https://git.zx2c4.com/realbook-splitter/tree/listing.txt
 - https://www.seventhstring.com/fbi/aboutfbi.html
 - https://github.com/mikeln/musicindex
