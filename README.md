@@ -28,6 +28,9 @@ described by one of these indices:
 -   Use https://github.com/neshanjo/fakebook-splitter which is based
     on NodeJS and `pdftk` so should work with Windows/Mac/Linux.
 
+-   Use https://codeberg.org/strk/splitPDF which is very fast and
+    broadly compatible ( https://perl-begin.org/platforms/ )
+
 -   You can use this [utility for
     Windows](https://github.com/Sogolumbo/Music-Book-Index-Search)
     which provides a GUI for quickly searching the indices and jumping
