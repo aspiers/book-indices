@@ -38,6 +38,10 @@ while (<IDX>)
 
   my ($title, $begin, $end) = ($1,$2,$3);
 
+  next if $title =~ '^#'; # Skip comments
+  next if $begin eq ''; # Skip lines with missing begin
+  $end = $begin if $end eq ''; # Missing end means end=begin
+
   print $title;
   print ': ';
   print $begin;
