@@ -6,6 +6,8 @@ use warnings;
 # NOTE: needs libpdf-api2-perl (on APT distros), perl-PDF-API2 (on RPM distros), or similar
 use PDF::API2;
 
+use File::Basename;
+
 sub usage
 {
   my ($stream, $status) = @_;
@@ -31,6 +33,8 @@ die "Output directory $outputDir does not exist\n" unless -d $outputDir;
 
 my $sourcepdf = PDF::API2->open($pdfInput) || die "Could not open PDF file $pdfInput: $!\n";
 
+my $pdfBasename = basename($pdfInput);
+
 while (<IDX>)
 {
   chop;
@@ -40,23 +44,33 @@ while (<IDX>)
 
   next if $title =~ '^#'; # Skip comments
   next if $begin eq ''; # Skip lines with missing begin
-  $end = $begin if $end eq ''; # Missing end means end=begin
+  # strip quotes from title
+  $title = substr $title, 1, -1 if $title =~ /^["']/;
 
-  print $title;
-  print ': ';
-  print $begin;
-  print '-';
-  print $end;
-  print "\n";
+  my $pages = "$begin";
+  if ( $end eq '' ) {
+    # Missing end means end=begin
+    $end = $begin;
+  } elsif ( $end != $begin ) {
+    $pages = "$begin-$end";
+  }
 
-  $title =~ s/^"(.*)"$/$1/g; # strip quotes
-  $title =~ s/[:\/?]/_/g;
+  print "$title: [$pages]\n";
 
   my $pdf = PDF::API2->new();
+
+  $pdf->producer("split | $pdfBasename | $pages");
+  $pdf->title($title);
+
   for (my $i=$begin; $i<=$end; ++$i)
   {
     my $page = $pdf->import_page($sourcepdf, $i);
   }
-  $pdf->save("${outputDir}/${title}.pdf");
+
+  my $fname = $title;
+  $fname =~ s/^"(.*)"$/$1/g; # strip quotes
+  $fname =~ s/[:\/?]/_/g;
+
+  $pdf->save("${outputDir}/${fname}.pdf");
 
 }
