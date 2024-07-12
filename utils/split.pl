@@ -3,7 +3,7 @@
 use strict;
 use warnings;
 
-# NOTE: needs libpdf-api2-perl
+# NOTE: needs libpdf-api2-perl (on APT distros), perl-PDF-API2 (on RPM distros), or similar
 use PDF::API2;
 
 sub usage
