@@ -31,7 +31,7 @@ while (<STDIN>) {
   print ',';
   print $from + $off;
   print ',';
-  print $to + $off;
+  print $to + $off if $to ne '';
   print "\n";
   #print "$title," . ($from+1) . "," . $(to+1);
 }
