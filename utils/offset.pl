@@ -1,5 +1,18 @@
 #!/usr/bin/perl
 
+#
+# CSV page shifter (offsetter)
+#
+# The script can be used to increment or decrement page numbers
+# in CSV index files. Example use:
+#
+# ./offset.pl 3 < NewReal3-Bb.csv # increment start/end page numbers by 3
+# ./offset.pl -2 < NewReal3-Bb.csv # decrement start/end page numbers by 2
+#
+# Very useful for interactively tweaking indices using text editors
+# that support piping blocks of lines to an external command, like Vim.
+#
+
 use strict;
 use warnings;
 
